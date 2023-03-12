@@ -1,0 +1,128 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box ;
+}
+
+@font-face{
+	font-family: RobotoR;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+html, body, main{
+	height: 100%;
+	font: RobotoR;
+}
+
+.first{
+	height: 100%;
+	background-image: url(../img/img1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.first p{
+	color: white;
+}
+.tourism{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 80px;
+	width: 100%;
+}
+.text-container{
+	width: 40%;
+	margin-top: 15%;
+	margin-left: 15%;
+}
+.first-line{
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	opacity: 0.5;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.second-line{
+	text-transform: uppercase;
+	font-size: 64px;
+	font-weight: bolder;
+	letter-spacing: 3px;
+	list-style: 1;
+}
+.thir-line{
+	font-size: 20px;
+}
+.second{
+	height: 100%;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+.gallery-container{
+	width: 60%;
+	max-width: 1000px;
+}
+.gallery-text{
+	display: flex;
+	align-items: ceneter;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.header{
+	font-size: 48px;
+	letter-spacing: 2px;
+	list-style: 1;
+	font-weight: bold;
+}
+.gallery-p{
+	font-size: 18px;
+	margin-left: 60px;
+}
+.img-container{
+	widows: 100%;
+	display:flex;
+	align-items: center;
+}
+img{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 10px 5px  rgba(0, 0, 0, 0.5);
+}
+.img1{
+	width: 59%;
+}
+.img{
+	margin-left: 20px;
+	margin-top: 77px;
+}
+.img2{
+	margin-bottom: 20px;
+}
+.third{
+	background-image: url(../img/img3.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	padding: 0 25%;
+	align-items: center;
+	justify-content: center;
+}
+.last-header{
+	text-align: center;
+	font-size: 21px;
+	border: 2px dashed #00ff00;
+	margin-bottom: 41px;
+	padding: 10px 20px;
+	color: white;
+}
+.last-text{
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	line-height: 2;
+	letter-spacing: 1px;
+	opacity: 0.7;
+}
